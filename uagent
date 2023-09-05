@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# Uagent; Coded by Kourva
+# Source; https://github.com/Kourva/uagent
+
+# resources
+import random
+import os
+import sys
+
+# User-agent file not found exception (Custom Exception)
+class UagentFileNotFound(Exception):
+    def __init__(self, message):
+        self.message = message
+        super().__init__(self.message)
+
+# Random user-agent function
+def get_random_user_agent() -> str | Exception:
+    """
+    This function returns a random user-agent from the user-agents list.
+
+    Returns:
+        str: A random user-agent string.
+    """
+
+    # Open the user-agent list
+    try:
+        with open('/etc/uagent/uagent.txt', 'r') as file:
+            # Read the user-agent list
+            user_agents = file.read().splitlines()
+        
+        # return random user-agent from file
+        return random.choice(user_agents)
+
+    # Return empty string if user-agent- list not found
+    except FileNotFoundError:
+        raise UagentFileNotFound("'/etc/uagent/uagent.txt' file not found. use 'python3 setup.py install'")
+
+    # Handle other errors
+    except Exception as e:
+        raise Exception(f"An unexpected error occurred").with_traceback(sys.exception().__traceback__)
+
+# Run the program
+if __name__ == "__main__":
+    print(get_random_user_agent())
