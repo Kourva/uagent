@@ -30,6 +30,7 @@ This tool is only compatible with **Linux**!
 ```bash
 uagent
 ```
+> Example result: `Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0`
 + If you want to use this tool alongside other tools like **sqlmap**:
 ```bash
 sqlmap -u 'https://example.com?id=1' --user-agent=$(uagent)
