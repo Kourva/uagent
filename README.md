@@ -33,6 +33,8 @@ sudo python setup.py install
 You need **root privilege** to install this tool! so use `sudo` before command.
 This tool is only compatible with **Linux**!
 
+<br>
+
 # Usage
 + For simple usage just type:
 ```bash
@@ -44,17 +46,23 @@ uagent
 sqlmap -u 'https://example.com?id=1' --user-agent=$(uagent)
 ```
 
+<br>
+
 # Uninstall
 ```bash
 sudo python setup.py uninstall
 ```
 You need **root privilege** to uninstall this tool! so use `sudo` before command.
 
+<br>
+
 # Manual 
 to see **Manual**:
 ```bash
 man uagent
 ```
+
+<br>
 
 # Thank You
 
