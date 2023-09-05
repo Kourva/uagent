@@ -17,7 +17,6 @@ def Check_OS() -> None | Exception:
         print("Operation System: Linux")
     else:
         raise OSError("This tool is only compatible with Linux!")
-        
 
 # Installer
 def uagent_installer() -> None:
