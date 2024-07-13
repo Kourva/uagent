@@ -1,22 +1,22 @@
 <h3 align='center'>
-    <img align='left' src='https://github.com/Kourva/uagent/blob/main/ua.png' width=120>
+    <img align='left' src='https://github.com/kozyol/uagent/blob/main/ua.png' width=120>
     <h3><b>uagent</b></h3>
     <p>Uagent allows you to retrieve a random user-agent string each time it is executed. It can be used for various web scraping and testing purposes.</p>
 </h3>
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://img.shields.io/github/directory-file-count/kourva/uagent?logoColor=white&logo=Files&style=plastic&labelColor=black">
-    <img src="https://img.shields.io/github/languages/count/kourva/uagent?logoColor=yellow&logo=Python&style=plastic&labelColor=black">
-    <img src="https://img.shields.io/github/issues/kourva/uagent?logoColor=red&logo=openbugbounty&style=plastic&labelColor=black">
-    <img src="https://img.shields.io/github/license/kourva/uagent?logoColor=green&logo=lospec&style=plastic&labelColor=black&color=pink">
-    <img src="https://img.shields.io/github/languages/code-size/kourva/uagent?logoColor=blue&logo=databricks&style=plastic&labelColor=black">
-    <img src="https://img.shields.io/github/watchers/kourva/uagent?logoColor=pink&logo=freepik&style=plastic&labelColor=black">
+    <img src="https://img.shields.io/github/directory-file-count/kozyol/uagent?logoColor=white&logo=Files&style=plastic&labelColor=black">
+    <img src="https://img.shields.io/github/languages/count/kozyol/uagent?logoColor=yellow&logo=Python&style=plastic&labelColor=black">
+    <img src="https://img.shields.io/github/issues/kozyol/uagent?logoColor=red&logo=openbugbounty&style=plastic&labelColor=black">
+    <img src="https://img.shields.io/github/license/kozyol/uagent?logoColor=green&logo=lospec&style=plastic&labelColor=black&color=pink">
+    <img src="https://img.shields.io/github/languages/code-size/kozyol/uagent?logoColor=blue&logo=databricks&style=plastic&labelColor=black">
+    <img src="https://img.shields.io/github/watchers/kozyol/uagent?logoColor=pink&logo=freepik&style=plastic&labelColor=black">
 </div>
 <br><br>
 
 # Setup
 + **Clone repository**
 ```bash
-git clone https://github.com/Kourva/uagent
+git clone https://github.com/kozyol/uagent
 ```
 + **Navigate to source directory**
 ```bash
